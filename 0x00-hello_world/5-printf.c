@@ -5,7 +5,7 @@
  *   *
  *
  *    *
- *
+ * retun: return 0 everyline
  */
 
 int main(void)
