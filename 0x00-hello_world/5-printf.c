@@ -5,7 +5,7 @@
  *   *
  *
  *    *
- * retun: return 0 everyline
+ *	* Return: Always 0 (Success)
  */
 
 int main(void)
