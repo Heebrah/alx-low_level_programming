@@ -8,7 +8,7 @@
 int main(void)
 {
 	char la;
-	
+
 	for (la = 'a'; la <= 'z'; la++)
 	{
 		if (la != 'e' && la != 'q')
@@ -16,5 +16,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	retrun (0);
+	return (0);
 }
