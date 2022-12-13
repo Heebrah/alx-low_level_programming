@@ -1,13 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * main - Entry point
- * Return - Always 0 (success)
+ * main - prints _putchar, followed by a new line
+ *
+ * Return: Always 0 (Success)
  */
+int main(void)
 {
-int _putchar(char c)
-{
-	putchar ('_putchar');
-}
-putchar('\n');
-return (0);
+	char oli[] = "_putchar";
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(oli[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
