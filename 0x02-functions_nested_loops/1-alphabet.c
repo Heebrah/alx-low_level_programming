@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet - print all alpha in lower
+ * print_alphabet - print all alpha in lower}
+ *
+ * Return : always 0
  */
-
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char lc;
+	int a;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
-		_putchar('\n');
+	a = 97;
+	while (a < 123)
+	{
+		_putchar(a);
+		a++;
+	}
+	_putchar(10);
 }
