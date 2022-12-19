@@ -5,31 +5,33 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int p, q, r, s;
 
-	for (a = 0; a <= 9; a++)
+	for (p = 0; p <= 9; p++)
 	{
-		for (b = 0; b <= 8; b++)
+		for (q = 0; q <= 8; q++)
 		{
-			for (c = 0; c <= 9; c++)
+			for (r = q; r <= 9; r++)
 			{
-				for (d = 0; d <= 9; d++)
+				for (s = 0; s <= 9; s++)
 				{
-if (!(a == c && b == d) || !(a == b && a == c &&
-a == d && b == c && b == d && d == c))
-				{
-				       	putchar(a + '0');
-					putchar(b + '0');
-					putchar(c + '0');
-					putchar(d + '0');
-				 if (!(a == 9 && b == 8 && c == 9))
-					 {
-						 putchar(',');
-						 putchar(' ');
-					 }
-				}
+					if (!(p == r && q == s) || !(p == q && p == r && p == s && q == r && q == s && s == r))
+					{
+						putchar(p + '0');
+						putchar(q + '0');
+						putchar(' ');
+						putchar(r + '0');
+						putchar(s + '0');
+						if (!(p == 9 && q == 8 && r == 9 && s == 9))
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
 				}
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
