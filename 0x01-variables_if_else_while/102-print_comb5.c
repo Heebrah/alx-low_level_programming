@@ -9,7 +9,7 @@ int main(void)
 
 	for (p = 0; p <= 9; p++)
 	{
-		for (q = 0; q <= 8; q++)
+		for (q = 0; q <= 9; q++)
 		{
 			for (r = q; r <= 9; r++)
 			{
@@ -22,7 +22,7 @@ int main(void)
 						putchar(' ');
 						putchar(r + '0');
 						putchar(s + '0');
-						if (!(p == 9 && q == 8 && r == 9 && s == 9))
+						if (!(p == 9 && q == 9 && r == 9 && s == 9))
 						{
 							putchar(',');
 							putchar(' ');
