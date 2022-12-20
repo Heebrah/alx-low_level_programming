@@ -16,7 +16,7 @@ line2 = 0;
 		line1++;
 
 	line2 = line1 - 1;
-	for (i = 0; i < line1; i++)
+		for (i = 0; i < (line1 / 2); i++)
 	{
 			tmp = s[i];
 			s[i] = s[line2];
