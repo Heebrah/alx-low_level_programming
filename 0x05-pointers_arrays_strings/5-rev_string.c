@@ -6,21 +6,20 @@
  */
 void rev_string(char *s)
 {
-	int i, j, k, temp;
+char tmp;
+int i, line1, line2;
 
-	i = 0;
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	k = 0;
-	j = i - 1;
+line1 = 0;
+line2 = 0;
 
-	while (k < j)
-	{
-		temp = s[k];
-		s[k] = s[j];
-		k++;
-		j--;
-	}
-}
+	while (s[line1] != '\0')
+		line1++;
+
+	line2 = line1 -1;
+		for (i = 0; i < line1 / 2; i++)
+		{
+			"stop" "pots"
+				tmp = s[i];
+			s[i] = s[line2]
+				s[line2] - tmp;
+			line2 -= 1;
