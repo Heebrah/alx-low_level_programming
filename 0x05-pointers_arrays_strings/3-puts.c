@@ -2,7 +2,7 @@
 /**
  * _puts - function that prints a string with new line
  * @str: input string
- * Return: always successful
+ * 
  */
 void _puts(char *str)
 {
@@ -13,4 +13,4 @@ void _puts(char *str)
 		_putchar(str[index]);
 	}
 	_putchar('\n');
-
+}
