@@ -15,7 +15,7 @@ line2 = 0;
 	while (s[line1] != '\0')
 		line1++;
 
-	line2 = line1 -1;
+		line2 = line1 - 1;
 		for (i = 0; i < line1 / 2; i++)
 		{
 			tmp = s[i];
