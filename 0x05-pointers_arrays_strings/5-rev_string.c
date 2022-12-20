@@ -19,7 +19,7 @@ line2 = 0;
 		for (i = 0; i < line1 / 2; i++)
 		{
 			tmp = s[i];
-			s[i] = s[line2]
+			s[i] = s[line2];
 				s[line2] - tmp;
 			line2 -= 1;
 		}
