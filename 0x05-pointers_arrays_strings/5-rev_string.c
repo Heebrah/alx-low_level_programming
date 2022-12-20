@@ -20,7 +20,7 @@ line2 = 0;
 		{
 			tmp = s[i];
 			s[i] = s[line2];
-				s[line2] - tmp;
+			s[line2] = tmp;
 			line2 -= 1;
 		}
 }
