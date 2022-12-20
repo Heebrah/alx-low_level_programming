@@ -2,7 +2,6 @@
 /**
  * _puts - function that prints a string with new line
  * @str: input string
- * 
  */
 void _puts(char *str)
 {
