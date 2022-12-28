@@ -6,6 +6,7 @@
 int main(void)
 {
 	long i, j, sum, c;
+
 	i = 0;
 	j = 1;
 
