@@ -5,23 +5,19 @@
  */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	long i, j, sum, c;
+	i = 0;
+	j = 1;
 
-	while (1 < 50)
+	for (c = 0; c < 50; c++)
 	{
-		if (i == 0)
-			printf("%ld", j);
-		else if (i != 0)
-			printf(", %ld", k);
+		sum = i + j;
+		i = j;
+		j = sum;
+		if (c != 49)
+			printf("%ld, ", sum);
 		else
-		{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
-		}
-		++1;
+			printf("%ld\n", sum);
 	}
-	printf("\n");
 	return (0);
 }
