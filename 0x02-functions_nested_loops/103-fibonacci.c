@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - sum even fibonacci number under 4 million
- * Ruturn: Always zero
+ * Return: always zero
  */
 int main(void)
 {
-	unsigned long count, i, j, k, sums;
+	unsigned long count, i, j, k, sum;
 
 	i = sums = 0;
 	j = 1;
