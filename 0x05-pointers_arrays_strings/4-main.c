@@ -10,5 +10,5 @@ int main(void)
 
 	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
 	print_rev(str);
-	retrun (0);
+	return (0);
 }
