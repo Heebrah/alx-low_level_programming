@@ -1,22 +1,28 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_strcmp - compare two strings
- * @dest - parameter 1
- * @src - parameter 2
- * @n - parameter 3
+ * _strcmp - compare two strings
+ * @dest: first parameter
+ * @src: second parameter
+ * @n: third parameter
  * Return: pointer
  */
-int main(void)
+char *_strncpy(char *dest, char *src, int n)
 {
-	 int n;
-	 int a[5];
-	 int *p;
+	int i, j;
 
-	 a[2] = 1024;
-	 p = &n;
-	 *(p + 5) = 98;
-	 /* ...so that this prints 98\n */
-	 printf("a[2] = %d\n", a[2]);
-	 return (0);
+	i = 0;
+	j = 0;
+	while (i < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }
