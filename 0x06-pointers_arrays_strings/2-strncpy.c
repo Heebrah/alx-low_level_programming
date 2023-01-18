@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcmp - compare two strings
+ * _strncpy - a function that copies a string
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
